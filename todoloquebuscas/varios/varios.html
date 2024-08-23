@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varios Chimoré</title>
+    <link rel="stylesheet" href="trab.css">
+    <link rel="icon" href="../../imagenes/logpng.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <header>
+        <a href="../../index.html" class="header-left">Chimoré</a>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" class="menu-icon">Menú</label>
+        <div class="header-mid-container">
+          <a href="../empleos/trab.html" class="header-mid">Empleos</a>
+          <a href="../inmuebles/inmuebles.html" class="header-mid">Inmuebles</a>
+          <a href="../motores/motors.html" class="header-mid">Automóviles</a>
+          <a href="../varios/varios.html" class="header-mid">Varios</a>
+        </div>
+    </header>
+    <button class="filter-toggle" id="filter-toggle">Tipo de Empleo</button>
+    <div class="container">
+        <aside class="filter-container" id="filter-container">
+            <h2>Filtros de Búsqueda</h2>
+            <div class="filter-group">
+                <h3>Tipo de Empleo</h3>
+                <ul>
+                    <li><a href="#" onclick="filterJobs('all')">Todos <span id="all-count"></span></a></li>
+                      <!-- inicio de filtros -->
+<!-- fin de filtros -->
+                </ul>
+            </div>
+        </aside>
+        <div class="content">
+              <!-- aquí deben introducirse los anuncios -->
+            
+            <!-- fin de anuncios -->
+            
+        </div>
+    </div>
+    <script src="trab.js"></script>
+    <footer>
+        <p>&copy; Publica tu anuncio: 62625521</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="433"
+   height="406"
+   viewBox="0 0 433 406"
+   sodipodi:docname="logpng.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect355"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath351">
+      <rect
+         style="display:none;fill:#ffffff;stroke-width:1.151"
+         id="rect353"
+         width="339.41724"
+         height="76.124542"
+         x="20.182152"
+         y="127.62849"
+         d="M 20.182152,127.62849 H 359.59939 v 76.12454 H 20.182152 Z" />
+      <path
+         id="lpe_path-effect355"
+         style="fill:#ffffff;stroke-width:1.151"
+         class="powerclip"
+         d="M 16.093497,15.211777 H 422.98064 V 396.83417 H 16.093497 Z m 4.088655,112.416713 v 76.12454 H 359.59939 v -76.12454 z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.66256158"
+     inkscape:cx="228.65799"
+     inkscape:cy="167.5316"
+     inkscape:window-width="1294"
+     inkscape:window-height="704"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g8">
+    <g
+       id="g1">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:57.1248px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#ff6600;stroke-width:4.9313;stroke-opacity:1"
+         x="33.953884"
+         y="174.86693"
+         id="text1776"
+         transform="scale(0.9852769,1.0149431)"><tspan
+           sodipodi:role="line"
+           id="tspan1774"
+           x="33.953884"
+           y="174.86693"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:57.1248px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00eaff;fill-opacity:1;stroke:#000bff;stroke-width:4.9313;stroke-opacity:1">Digital Trópico</tspan></text>
+      <path
+         style="fill:#005a00;fill-opacity:1;stroke-width:0.917958"
+         d="m 37.881386,391.08632 c -5.151045,-1.44331 -11.556884,-5.1316 -14.622468,-8.41919 -1.942012,-2.08266 -2.271091,-3.26061 -2.140117,-7.66052 0.375482,-12.61388 14.259572,-45.8396 30.271743,-72.44262 6.688294,-11.11211 15.48498,-24.10257 19.797985,-29.23657 25.460616,-30.30713 63.088431,-68.80547 85.633191,-87.61429 33.02248,-27.55028 78.95723,-59.25933 115.66265,-79.84269 20.82535,-11.678247 20.32239,-11.361207 18.58625,-11.716117 -0.88484,-0.18089 -6.25489,0.55432 -11.93344,1.63379 -45.41185,8.632637 -92.65967,26.721127 -132.04949,50.554197 -26.59533,16.0917 -46.15825,31.46001 -68.826354,54.06888 -14.031393,13.99472 -27.966694,32.14403 -29.299606,34.00794 -0.486797,0.68072 -2.476769,4.08873 -5.503927,8.17147 -7.930657,10.69606 -7.680159,25.32203 -12.595901,-18.67784 -2.87234,-25.70976 -1.009203,-40.01355 0.955585,-50.81389 8.308232,-45.67005 39.439962,-85.552897 87.419293,-111.99285 47.35254,-26.094549 120.57921,-41.096205 199.60445,-40.892189 56.39916,0.145615 99.13941,6.942219 99.13941,15.765286 0,1.810038 -3.82868,5.611585 -13.31039,13.216009 -9.04881,7.257253 -24.88052,23.652754 -31.46299,32.583444 -15.83895,21.48929 -26.8126,45.00483 -44.23826,94.79857 -9.35499,26.73185 -15.2176,41.32439 -22.31197,55.53643 -20.00349,40.07268 -46.07608,61.4951 -86.95522,71.44633 -13.62316,3.31629 -25.90023,4.44612 -49.11072,4.51955 -22.18739,0.0701 -36.61623,-1.3503 -58.2903,-5.73853 -6.81583,-1.37996 -12.661297,-2.3593 -12.989935,-2.17631 -0.328629,0.183 -3.704978,5.60806 -7.50299,12.0557 -8.361161,14.19419 -22.739947,43.17463 -27.661135,55.75098 -5.976463,15.27318 -8.520959,20.45604 -10.756874,21.91049 -3.06238,1.99207 -10.606604,2.57802 -15.50847,1.20454 z"
+         id="path172"
+         sodipodi:nodetypes="ssssssssssssssssssssssssssssss"
+         clip-path="url(#clipPath351)"
+         transform="translate(0.55340932,-5.4440598)"
+         inkscape:original-d="m 37.881386,391.08632 c -5.151045,-1.44331 -11.556884,-5.1316 -14.622468,-8.41919 -1.942012,-2.08266 -2.271091,-3.26061 -2.140117,-7.66052 0.375482,-12.61388 14.259572,-45.8396 30.271743,-72.44262 6.688294,-11.11211 15.48498,-24.10257 19.797985,-29.23657 25.460616,-30.30713 63.088431,-68.80547 85.633191,-87.61429 33.02248,-27.55028 78.95723,-59.25933 115.66265,-79.84269 20.82535,-11.678247 20.32239,-11.361207 18.58625,-11.716117 -0.88484,-0.18089 -6.25489,0.55432 -11.93344,1.63379 -45.41185,8.632637 -92.65967,26.721127 -132.04949,50.554197 -26.59533,16.0917 -46.15825,31.46001 -68.826354,54.06888 -14.031393,13.99472 -27.966694,32.14403 -29.299606,34.00794 -0.486797,0.68072 -2.476769,4.08873 -5.503927,8.17147 -7.930657,10.69606 -7.680159,25.32203 -12.595901,-18.67784 -2.87234,-25.70976 -1.009203,-40.01355 0.955585,-50.81389 8.308232,-45.67005 39.439962,-85.552897 87.419293,-111.99285 47.35254,-26.094549 120.57921,-41.096205 199.60445,-40.892189 56.39916,0.145615 99.13941,6.942219 99.13941,15.765286 0,1.810038 -3.82868,5.611585 -13.31039,13.216009 -9.04881,7.257253 -24.88052,23.652754 -31.46299,32.583444 -15.83895,21.48929 -26.8126,45.00483 -44.23826,94.79857 -9.35499,26.73185 -15.2176,41.32439 -22.31197,55.53643 -20.00349,40.07268 -46.07608,61.4951 -86.95522,71.44633 -13.62316,3.31629 -25.90023,4.44612 -49.11072,4.51955 -22.18739,0.0701 -36.61623,-1.3503 -58.2903,-5.73853 -6.81583,-1.37996 -12.661297,-2.3593 -12.989935,-2.17631 -0.328629,0.183 -3.704978,5.60806 -7.50299,12.0557 -8.361161,14.19419 -22.739947,43.17463 -27.661135,55.75098 -5.976463,15.27318 -8.520959,20.45604 -10.756874,21.91049 -3.06238,1.99207 -10.606604,2.57802 -15.50847,1.20454 z"
+         inkscape:path-effect="#path-effect355" />
+    </g>
+  </g>
+</svg>

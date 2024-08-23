@@ -1,0 +1,616 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  *, *::after, *::before {
+    box-sizing: inherit;
+  }
+
+  
+  .contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+  }
+  
+  h1, h2 {
+    font-family: 'Arima Madurai', cursive;
+  }
+  
+  h3, p, a {
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .verde {
+    color: #00A149;
+  }
+  
+  .ocultar {
+    display: none;
+  }
+  
+  .btn-cerrar {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    user-select: none;
+  }
+  
+  .pantalla-completa {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 4;
+  }
+  
+  @keyframes desplazamiento {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .btn-cerrar:hover {
+    cursor: pointer;
+  }
+  
+  .btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: 1rem 5rem;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+  }
+
+  @media(min-width: 768px) {
+    .btn{
+        font-size: 2.2rem;
+    }
+}
+.bordes{
+    border: 3px solid var(--blanco);
+}
+@media(min-width: 768px) {
+    .bordes{
+        border: 4px solid var(--blanco);
+    }
+}
+  
+  .btn-verde {
+    background-color: #00A149;
+    border: none;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  .btn-verde:hover {
+    background-color: #881014;
+  }
+  
+  .contenedor-navegacion {
+    background-color: #131212;
+    padding: 1rem 0;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+  }
+  
+  .contenido-navegacion {
+    display: flex;
+    padding: 0 1rem; /* Ajusta el valor según tu preferencia */
+    height: 4rem; 
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo h2, .navegacion a {
+    color: #fff; 
+  }
+  
+  .logo h2 {
+    font-size: 3rem;
+  }
+  
+  .navegacion a {
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding: 1.5rem;
+    padding-left: 4rem;
+    display: block;
+    transition: color .3s ease-in-out;
+    text-align: center;
+  }
+  @media(min-width: 768px) {
+    .navegacion a{
+        text-align: left;
+    }
+}
+  
+  .navegacion a:hover {
+    color: #00A149;
+  }
+  
+  .navegacion a:first-of-type {
+    margin-top: 5rem;
+  }
+  
+  .navegacion {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 40rem;
+    padding: 3rem 4rem;
+    background-color: #000;
+    animation: desplazamiento .5s ease-in-out;
+  }
+  
+  .hamburguesa:hover {
+    cursor: pointer;
+  }
+  
+  .hamburguesa span {
+    background-color: #fff;
+    display: block;
+    width: 5rem;
+    height: .5rem;
+    margin-bottom: .5rem;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+     url("../imagenes/chimore.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 5 15px;
+  }
+  
+  .hero h1 {
+    color: white;
+    font-size: 2em; 
+    margin: 10px 0; 
+  }
+  
+  .hero h2 {
+    font-size: 5rem;
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: Khaki;
+    -webkit-text-stroke: 2px rgb(42, 71, 165);
+    text-shadow: 1px 1px 5px rgb(33, 79, 204);
+    position: relative;
+    line-height: 80%;
+    }
+    
+    .bubble {
+    aspect-ratio: 1/1;
+    border-radius: 75% 0 75% 0;
+    background-color: rgb(18, 47, 128);
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 100%;
+    opacity: 0;
+    animation: drip 4s ease-in infinite;
+    }
+    
+    @keyframes drip {
+    25% { 
+    opacity: 1; 
+    }
+    75% { 
+    opacity: 1; 
+    }
+    100% {
+    bottom: -2rem; 
+    opacity: 0;
+    transform: rotate(360deg);
+    }
+    }
+  
+
+/* Reglas específicas para pantallas pequeñas */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 1em; /* Reducir el tamaño de la fuente en pantallas pequeñas */
+    }
+
+    .hero h2 {
+        font-size: 1.8em; /* Reducir el tamaño de la fuente en pantallas pequeñas */
+    }
+}
+
+
+
+
+
+/* empleos inmoviliaria...*/
+#nuestros-programas {
+    /*background-color: rgb(30, 30, 30);*/
+    color: white;
+    text-align: center;
+}
+
+#nuestros-programas .container {
+    padding: 50px; /* Ajuste de padding */
+    box-sizing: border-box; /* Incluye padding en el tamaño total */
+    max-width: 100%; /* Limita el ancho máximo */
+    margin: 0 auto; /* Centra el contenedor */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nuestros-programas h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+}
+@media (max-width: 600px) {
+    #nuestros-programas h2 {
+        font-size: 2.5em; /* Reducir el tamaño de la fuente en pantallas pequeñas */
+    }
+
+}
+
+#nuestros-programas .programas {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las cartas se muevan a la siguiente línea si no hay suficiente espacio */
+    justify-content: center;
+}
+
+#nuestros-programas .carta {
+    background-size: cover;
+    padding: 25px 15px; /* Ajuste del padding */
+    margin: 10px;
+    border-radius: 15px;
+    width: 250px; /* Ancho fijo para cada carta */
+    display: flex;
+    flex-direction: column;
+    /*position: relative;*/
+    align-items: center;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: inset 0 -3em 3em rgba(122, 121, 121, 0.1),
+    0 0  0 2px rgb(124, 119, 119),
+    0.3em 0.3em 1em rgba(141, 139, 139, 0.3);
+}
+
+#nuestros-programas .carta h3 {
+    font-size: 1.5em;
+}
+#nuestros-programas .carta button {
+    margin-top: auto; /* Mantiene el botón en la parte inferior */
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    background-color: #3d405b;
+    border: none;
+    color: #FFFFFF;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+   
+   #nuestros-programas .carta button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   #nuestros-programas .carta button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   #nuestros-programas .carta button:hover span {
+    padding-right: 15px;
+   }
+   
+   #nuestros-programas .carta button:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+
+.carta:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url("../imagenes/inmuebles.svg");
+}
+
+.carta:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url("../imagenes/automoviles.svg");
+}
+
+.carta:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url("../imagenes/empleos.svg");
+}
+
+.carta:nth-child(4) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url("../imagenes/varios.svg");
+}
+
+/*sobre nosotros*/
+.contenedor-nosotros{
+    
+    padding-top: 5rem;
+}
+@media(min-width: 768px) {
+    .contenedor-nosotros{
+        display: flex;
+         justify-content: space-between;
+    }   
+}
+.texto-nosotros, .imagenes-nosotros{
+   
+    flex: 0 0 calc(50% - 1rem) ;
+}
+
+.texto-nosotros h1{
+    font-size: 5rem;
+    text-align: center;
+}
+@media(min-width: 768px) {
+    .texto-nosotros h1{
+        text-align: left;
+    }
+}
+.texto-nosotros p{
+    font-size: 2rem;
+    text-align: center;
+}
+@media(min-width: 768px) {
+    .texto-nosotros p{
+        text-align: left;
+    }
+}
+.imagenes-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+.imagenes-nosotros img{
+    border-radius: 5px;
+}
+.imagen1, .imagenes2{
+    flex: 0 0 calc(50% - 1rem);
+}
+.imagenes2 img{
+    margin-bottom: 1rem;
+}
+
+/* numeros datos*/
+
+#contacivi{
+  padding: 5rem;
+}
+
+#contacivi h2{
+  font-size: 3rem;
+  text-align: center;
+}
+@media(min-width: 768px) {
+  #contacivi h2{
+      text-align: left;
+      font-size: 5rem;
+  }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 190px;
+    height: 254px;
+    perspective: 1000px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    box-shadow:  0 0 10px rgba(104, 103, 103, 0.5); 
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid #444;
+    border-radius: 1rem;
+}
+
+.flip-card-front {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    linear-gradient(120deg, #222 60%, #333 88%, #444 40%, #555 48%);
+    color: #fff; /* Texto en color blanco para contraste */
+}
+
+.flip-card-back {
+    background: linear-gradient(120deg, #333 30%, #444 88%, #555 40%, #666 78%);
+    color: #fff; /* Texto en color blanco para contraste */
+    transform: rotateY(180deg);
+}
+
+.flip-card-front.tarjeta-1 {
+  background: 
+      linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../imagenes/carrasco.jpg") center/contain no-repeat,
+      linear-gradient(120deg, #222 60%, #333 88%, #444 40%, #555 48%);
+}
+
+.flip-card-front.tarjeta-2 {
+  background: 
+      linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../imagenes/sept.svg") center/contain no-repeat,
+      linear-gradient(120deg, #222 60%, #333 88%, #444 40%, #555 48%);
+}
+
+.flip-card-front.tarjeta-3 {
+  background: 
+      linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../imagenes/ivir.svg") center/contain no-repeat,
+      linear-gradient(120deg, #222 60%, #333 88%, #444 40%, #555 48%);
+}
+.flip-card-front.tarjeta-4 {
+  background: 
+      linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../imagenes/ledez.svg") center/contain no-repeat,
+      linear-gradient(120deg, #222 60%, #333 88%, #444 40%, #555 48%);
+}
+
+
+@media (max-width: 800px) {
+    .flip-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 500px) {
+    .flip-card {
+        width: 100%;
+    }
+}
+
+
+
+/*footer*/
+
+
+.pie-pagina {
+  margin-top: 1.5rem;
+  background-color: rgb(20, 20, 20);
+  padding: 1.5rem;
+}
+
+.contenedor-piepagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 80%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.info {
+  flex: 0 0 calc(100%);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.info a {
+  display: block;  
+  color: #fff;
+  text-decoration: none;  
+  font-size: 2rem;  
+  margin: 0.5rem 0;  
+}
+.info a:hover{
+  color: blue;
+}
+.info h3, .info p {
+  color: #fff;
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.info p {
+  font-size: 1.8rem;
+}
+
+@media(min-width: 768px) {
+  .contenedor-piepagina {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .info {
+      flex: 0 0 calc(33%);
+      text-align: left;
+  }
+
+  .logo {
+      margin-bottom: 0;
+  }
+}

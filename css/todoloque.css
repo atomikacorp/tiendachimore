@@ -50,7 +50,7 @@
     text-decoration: none;
     display: inline-block;  
     padding-bottom: 4px;
-
+  
   }
   
   .header-mid:hover {
@@ -107,29 +107,30 @@
     .header {
       padding: 10px 20px;
     }
-
+  
      }
-
-.container {
+  
+  .container {
     display: flex;
-    margin-bottom: 60px; /* Añade margen inferior para el espacio del footer fijo */
+    margin-bottom: 60px; 
     flex-wrap: nowrap; /* Prevent line wrapping */
-}
-.filter-toggle {
-    display: block; /* Cambiar a block para permitir el centrado */
-    width: auto; /* Ajustar el ancho automáticamente */
-    padding: 10px 5px; /* Añadir relleno horizontal para un tamaño mediano */
+  }
+  .filter-toggle {
+    display: block; 
+    width: auto; 
+    padding: 10px 5px; 
     text-align: center;
     background-color: #007bff;
     color: white;
     border: none;
     cursor: pointer;
     font-size: 1.2em;
-    margin: 60px auto 20px auto; /* Centrar el botón horizontalmente */
+    margin: 60px auto 20px auto; 
   }
   @media (max-width: 768px) {
     .container {
         flex-direction: column;
+        align-items: center;
     }
   
     .filter-toggle {
@@ -143,8 +144,8 @@
         display: none;
     }
   }
-
-.filter-container {
+  
+  .filter-container {
     width: 250px;
     background-color: #fff;
     padding: 20px;
@@ -152,90 +153,91 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     flex-shrink: 0; /* Prevent shrinking */
-}
-.filter-container {
-    position: sticky; /* Keep it fixed when scrolling */
+   
+  }
+  .filter-container {
+    
     top: 80px; /* Adjust top according to your header height */
     max-height: calc(100vh - 100px); /* Adjust maximum height */
     overflow-y: auto; /* Add scroll inside the aside if needed */
-}
-
-h2 {
+  }
+  
+  h2 {
     text-align: center;
     font-size: 1.5em;
     margin-bottom: 20px;
-}
-
-.filter-group h3 {
+  }
+  
+  .filter-group h3 {
     font-size: 1.2em;
     margin-bottom: 10px;
-}
-
-.filter-group ul {
+  }
+  
+  .filter-group ul {
     list-style-type: none;
     padding: 0;
-}
-
-.filter-group ul li {
+  }
+  
+  .filter-group ul li {
     margin-bottom: 10px;
-}
-
-.filter-group ul li a {
+  }
+  
+  .filter-group ul li a {
     text-decoration: none;
     color: #007bff;
-}
-
-.filter-group ul li a:hover {
+  }
+  
+  .filter-group ul li a:hover {
     text-decoration: underline;
-}
-
-.content {
+  }
+  
+  .content {
     flex-grow: 1;
     padding: 20px;
-    min-width: 0; /* Prevent content from growing the container */
-    overflow-x: hidden; /* Hide overflow if necessary */
-}
-
-.job {
+  
+  }
+  
+  .job {
     background-color: #fff;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative; /* Permite posicionar elementos hijos de forma absoluta */
-}
-.job-header {
+    position: relative; 
+  }
+  .job-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.job-date {
+  }
+  
+  .job-date {
     font-size: 0.9em;
     color: #666;
     position: absolute;
     top: 15px;
     right: 15px;
-}
-
-.job-details {
+  }
+  
+  .job-details {
     display: block;
     margin-top: 10px;
     text-align: right;
     color: #007bff;
     text-decoration: none;
-}
-
-.job-details:hover {
+  }
+  
+  .job-details:hover {
     text-decoration: underline;
-}
-
-
-
-footer {
+  }
+  
+  
+  
+  footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 20px;
     width: 100%;
-}
+  }
+  

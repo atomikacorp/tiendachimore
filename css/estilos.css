@@ -511,27 +511,27 @@ html {
 .flip-card-front.tarjeta-1 {
   background: 
       linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../imagenes/carrasco.jpg") center/contain no-repeat,
+      url("../imagenes/tecn.jpg") center/contain no-repeat,
       linear-gradient(120deg, #222 60%, #333 88%, #444 40%, #555 48%);
 }
 
 .flip-card-front.tarjeta-2 {
   background: 
       linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../imagenes/sept.svg") center/contain no-repeat,
+      url("../imagenes/cesar.jpg") center/contain no-repeat,
       linear-gradient(120deg, #222 60%, #333 88%, #444 40%, #555 48%);
 }
 
 .flip-card-front.tarjeta-3 {
   background: 
       linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../imagenes/ivir.svg") center/contain no-repeat,
+      url("../imagenes/vel.jpg") center/contain no-repeat,
       linear-gradient(120deg, #222 60%, #333 88%, #444 40%, #555 48%);
 }
 .flip-card-front.tarjeta-4 {
   background: 
       linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../imagenes/ledez.svg") center/contain no-repeat,
+      url("../imagenes/unibol.png") center/contain no-repeat,
       linear-gradient(120deg, #222 60%, #333 88%, #444 40%, #555 48%);
 }
 

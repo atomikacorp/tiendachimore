@@ -6,8 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const allJobs = document.querySelectorAll('.job').length;
     document.getElementById('all-count').textContent = `(${allJobs})`;
      // aquí se agregan los nuevos tipos
-
-    // fin de los nuevos tipos
+const AutomóvilJobs = document.querySelectorAll('.job.Automóvil').length;
+document.getElementById('Automóvil-count').textContent = `(${AutomóvilJobs})`;
+const CamiónJobs = document.querySelectorAll('.job.Camión').length;
+document.getElementById('Camión-count').textContent = `(${CamiónJobs})`;
+const OtrosJobs = document.querySelectorAll('.job.Otros').length;
+document.getElementById('Otros-count').textContent = `(${OtrosJobs})`;
+// fin de los nuevos tipos
   }
   
   function filterJobs(type) {

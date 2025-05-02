@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
         rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-        <link rel="stylesheet" href="css/fondo.css">
-    <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/hefoo.css">
+        <link rel="stylesheet" href="css/estilos.css">
        <!-- Favicon -->
        <link rel="icon" href="https://tiendachimore.com/imagenes/logpng.svg" type="image/svg+xml">
        <link rel="icon" href="https://tiendachimore.com/imagenes/logpng.png" type="image/png">
@@ -48,40 +48,65 @@
 </head>
 
 <body>
-
-    <header class="encabezado">
-        <div class="contenedor-navegacion">
-          <div class="contenido-navegacion contenedor">
-            <div class="logo">
-              <h2><span class="verde">Chimoré</span></h2>
-            </div>
-            <nav class="navegacion ocultar">
-              <a href="https://tiendaivirgarzama.com">Tienda Ivirgarzama</a>
-              <a href="https://tiendavillatunari.com">Tienda Villa Tunari</a>
-              <a href="https://tiendashinaota.com">Tienda Shinahota</a>
-              <a href="https://tiendaentrerios.com">Tienda Entre Ríos</a>
-              
-            </nav>
-            <div class="hamburguesa">
-              <span></span><span></span><span></span>
-            </div>
-          </div>
+    <!-- Hero Section -->
+    <!-- Navigation -->
+    <nav>
+        <div class="wrapper">
+            <div class="logo">Ivirgarzama</div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <li><a href="https://tiendachimore.com">Chimoré</a></li>
+                <li><a href="https://tiendashinaota.com">Shinahota</a></li>
+                <li>
+                    <a href="https://tiendaentrerios.com">Entre Ríos</a>
+                   
+                </li>
+                <li>
+                    <a href="https://tiendavillatunari.com">Villa Tunari</a>
+                   
+                </li>
+                <li><a href="#footer">Contáctanos</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
         </div>
-      </header>
-    
-      <div class="hero">
-        <h1>Explora Chimoré, un destino lleno de selva y cultura, <br>
-            donde la naturaleza y la tradición se unen <br>
-            en el corazón del Trópico de Cochabamba.</h1>
-        <h2>Publica tu anuncio gratis: 75922126</h2>
-      </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="carousel">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1>Bienvenidos al Trópico</h1>
+                    <p>Naturaleza y paisajes inolvidables</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Vive la experiencia del Trópico</h1>
+                    <p>Emocionantes aventuras al aire libre</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Turismo en Ivirgarzama</h1>
+                    <p>Aventura, Ríos y Belleza Natural</p>
+                </div>
+            </div>
+        </div>
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
     <section id="nuestros-programas">
-        <div class="container">
-            <h2>Todo lo que buscas</h2>
+        <div class="containercard">
+            <h2>Anuncios Publicados</h2>
             <div class="programas">
                 <div class="carta">
-                    <h3>Lotes Chacos Inmuebles</h3>
+                    <h3>Inmuebles</h3>
                     <button onclick="location.href='todoloquebuscas/inmuebles/inmuebles.html'"><span>+info</span></button>
                 </div>
                 <div class="carta">
@@ -100,117 +125,133 @@
         </div>
     </section>
 
-   
+    <!-- About Section -->
+    <section id="about-us" class="about-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Visita Ivirgarzama</h2>
+            <p class="section-subtitle fade-in-up">¡Descubre todo lo que Ivirgarzama tiene para ofrecer!</p>
 
-    <div class="contenedor-nosotros contenedor">
-        <div class="texto-nosotros">
-            <h1>Turismo </h1>
-            <h2> Estación Experimental del INIAF</h2>
-            <p>Chimoré es conocida por su estación experimental del 
-                Instituto Nacional de Innovación Agropecuaria y Forestal (INIAF), 
-                donde se realizan investigaciones agrícolas y forestales. Los visitantes interesados 
-                en la agricultura y la innovación 
-                pueden aprender sobre las prácticas y proyectos que se llevan a cabo aquí.
-            </p>
-            <h2> Río Chimoré</h2>
-            <p>El río Chimoré es uno de los principales atractivos de la zona.
-                 Es ideal para actividades acuáticas como la pesca, paseos en bote y la natación.
-            </p>
-            
-        </div>
-        <div class="imagenes-nosotros">
-            <div class="imagen1">
-                <img data-src="imagenes/chimore1.webp" alt="cria de peces">
-                <img data-src="imagenes/chimore12.webp" alt="cocina">
-            </div>
-            <div class="imagenes2">
-                <img data-src="imagenes/chimore5.webp" alt="platanos">
-                <img data-src="imagenes/chimore4.webp" alt="aeropuerto">
-            </div>
-        </div>
-    </div>
-    <section id="contacivi">
-        <h2>Contactos </h2>
-    <div class="container">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front tarjeta-1">
-                    <p class="title">Tecnológico Agropecuario Canadá Chimoré</p>
-                    <p></p>
-                </div>
-                <div class="flip-card-back">
-                    <p class="title"> </p>
-                    <p>taccochabamba<br>@gmail.com</p>
-                    <p>67520206</p>
-                </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front tarjeta-2">
-                    <p class="title">Cesar's Tropical Hotel </p>
-                    <p></p>
-                </div>
-                <div class="flip-card-back">
-                    <p class="title"></p>
-                    <p>javierpg78@gmail.com</p>
-                    <p>71720919</p>
-                </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front tarjeta-3">
-                    <p class="title">Clinica Velasquez </p>
-                    <p></p>
-                </div>
-                <div class="flip-card-back">
-                    <p class="title"></p>
-                    <p>laboratoriosvelasquez<br>@gmail.com</p>
-                    <p>72326777</p>
-                </div>
-            </div>
-        </div>
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front tarjeta-4">
-                    <p class="title">UNIBOL "Quechua"</p>
-                    <p></p>
-                </div>
-                <div class="flip-card-back">
-                    <p class="title"></p>
-                    <p>68581501</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Encontrarás una amplia gama de productos y servicios
+          Desde artesanías únicas hasta deliciosa comida local.
+                    </p>
+                    <h2>Puerto Villarroel</h2>
+                    <p>
+                        Descubre Perto Villarroel y disfruta de su variada gastronomía a base de pescados.
+                 Navega por el río Mamoré en barcos y lanchas de turismo, o prueba la pesca deportiva.
+                  Además, podrás visitar comunidades indígenas y 
+                explorar sitios arqueológicos. ¡Una experiencia única en la Amazonía boliviana!
+                    </p>
+                  <!--   <h2>Visión</h2>
+                    <p>
+                        Ser reconocidos como un centro de excelencia educativa que inspira una
+                        pasión permanente por el aprendizaje y
+                        prepara a los estudiantes para hacer contribuciones significativas a la sociedad.
+                    </p> -->
 
- 
+                </div>
+                <div class="about-image">
+                    <img src="imagenes/ivi5.jpeg" alt="Puerto Villarroel" id="campus-image">
+                </div>
+            </div>
 
-    
-<div class="pie-pagina">
-    <div class="contenedor-piepagina">
-        <img data-src="imagenes/logpng.svg" alt="Digital tropic" class="logo">
-        <div class="info">
-            <h3>Encuentra tu anuncio</h3>
-            <h3>Publica tu anuncio</h3>
+
+        </div>
+    </section>
+    <!-- Programs Section -->
+    <section class="programs" id="programs">
+        <h2 class="section-title">Anuncios Destacados</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="imagenes/cupe.webp" alt="Cupe"
+                    class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Mundo Acuático CUPE</h3>
+                    <p class="card-text">Parque privado de turismo, aventuras aéreas extremas y acuáticos.
+                    </p>
+                    <a href="https://www.facebook.com/cupemundoacuatico" class="card-button">Más información</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/ledez.webp" alt="Clínica Ledezma"
+                    class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Clínica Ledezma </h3>
+                    <p class="card-text">Clínica de 2do nivel. Atención las 24 horas.</p>
+                    <a href="https://www.facebook.com/profile.php?id=61564378648418" class="card-button">Más información</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/wo.webp" alt="Cine"
+                    class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">World Cinema </h3>
+                    <p class="card-text"> ¡Vive la magia del cine! Las mejores películas te esperan.</p>
+                    <a href="https://www.facebook.com/profile.php?id=100095613547824&mibextid=LQQJ4d" class="card-button">Más información</a>
+                </div>
+            </div>
            
         </div>
-        <div class="info">
-            <h3>Visita nuestras tiendas</h3>
-            <p>
-            <a href="https://tiendaivirgarzama.com" >Tienda Ivirgarzama</a>
-            <a href="https://tiendashinaota.com" >Tienda Shinahota</a>
-            <a href="https://tiendavillatunari.com" >Tienda Villa Tunari</a>
-            <a href="https://tiendaentrerios.com" >Tienda Entre Ríos</a>
-        </p>
+    </section>
+
+   
+
+    <!-- Footer -->
+    <footer class="site-footer" id="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-column">
+                   <img src="imagenes/logpng.svg" class="logo">
+                </div>
+
+                <div class="footer-column">
+                    <h3>Visítanos</h3>
+                    <ul>
+                        <li><a href="https://tiendachimore.com">Tienda Chimoré</a></li>
+                        <li><a href="https://tiendaentrerios.com">Tienda Entre Ríos</a></li>
+                        <li><a href="https://tiendavillatunari.com">Tienda Villa Tunari</a></li>
+                        <li><a href="https://tiendashinaota.com">Tienda Shinahota</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contactanos</h3>
+                    <p>Conectemos el Trópico<br>
+                        Publica tu anuncio<br>
+                        Celular: 62625521<br>
+                        Gmail: digitaltropic66@gmail.com</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Ivirgarzama-Contactos</h3>
+                    <p>Hospital: 72214361-72738461</p>
+                    <p>Policia:</p>
+
+                      <!--   <div class="social-icons">
+                            <a href="https://www.facebook.com/tuusuario" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/tuusuario" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.youtube.com/c/tuusuario" target="_blank">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@tuusuario" target="_blank">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </div> -->
+                </div>
+
+
+
+            </div>
         </div>
-    </div>
-</div>
+    </footer>
     
     <script src="js/app.js"></script>
+    <!-- <script src="js/fondo.js"></script> -->
 
 </body>
-
 </html>

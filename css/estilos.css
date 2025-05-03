@@ -68,15 +68,15 @@
 }
 
 .slide:nth-child(1) {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagenes/ivi.webp') center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagenes/chimore.webp') center/cover;
 }
 
 .slide:nth-child(2) {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagenes/ivi3.webp') center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagenes/banana-growing-plantation.png.webp') center/cover;
 }
 
 .slide:nth-child(3) {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagenes/ivi4.jpg') center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagenes/image10.png') center/cover;
 }
 
 /* Previous hero styles maintained... */

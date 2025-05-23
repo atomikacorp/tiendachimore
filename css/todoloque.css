@@ -219,18 +219,30 @@
     right: 15px;
   }
   
-  .job-details {
-    display: block;
+.job-link {
+  text-align: right;
+  margin-top: 10px;
+}  
+.job-details {
+    
     margin-top: 10px;
     text-align: right;
     color: #007bff;
     text-decoration: none;
-  }
-  
-  .job-details:hover {
+}
+
+.job-details:hover {
     text-decoration: underline;
-  }
-  
+}
+
+.empty-link {
+    color: black;
+    pointer-events: none; /* Desactiva el hover */
+}
+
+.empty-link:hover {
+    text-decoration: none; /* Evita que se subraye */
+}
   
   
   footer {
